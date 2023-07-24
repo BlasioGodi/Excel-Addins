@@ -17,3 +17,22 @@ C:\Users\user\Desktop\Computer Science\2. Projects\Projects4-Excel Addins\ExcelC
 C:\Users\user\Desktop\Computer Science\2. Projects\Projects4-Excel Addins\ExcelConsoleRead2\bin\Debug\ClosedXML.xml
 C:\Users\user\Desktop\Computer Science\2. Projects\Projects4-Excel Addins\ExcelConsoleRead2\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\user\Desktop\Computer Science\2. Projects\Projects4-Excel Addins\ExcelConsoleRead2\bin\Debug\ExcelNumberFormat.xml
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ExcelConsoleRead2.exe.config
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ExcelConsoleRead2.exe
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ExcelConsoleRead2.pdb
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ClosedXML.dll
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ExcelNumberFormat.dll
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\IronXL.dll
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\System.IO.Packaging.dll
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ClosedXML.pdb
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ClosedXML.xml
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\ExcelNumberFormat.xml
+D:\Git\Excel-Addins\ExcelConsoleRead2\bin\Debug\IronXL.xml
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.csproj.AssemblyReference.cache
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.csproj.ResolveComReference.cache
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.csproj.CoreCompileInputs.cache
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.csproj.CopyComplete
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.exe
+D:\Git\Excel-Addins\ExcelConsoleRead2\obj\Debug\ExcelConsoleRead2.pdb

@@ -1,0 +1,15 @@
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\bin\Debug\net6.0\CSVAutoupdate.exe
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\bin\Debug\net6.0\CSVAutoupdate.deps.json
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\bin\Debug\net6.0\CSVAutoupdate.runtimeconfig.json
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\bin\Debug\net6.0\CSVAutoupdate.dll
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\bin\Debug\net6.0\CSVAutoupdate.pdb
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.csproj.AssemblyReference.cache
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.AssemblyInfoInputs.cache
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.AssemblyInfo.cs
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.csproj.CoreCompileInputs.cache
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.dll
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\refint\CSVAutoupdate.dll
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.pdb
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\CSVAutoupdate.genruntimeconfig.cache
+D:\Git\Excel-Addins\CSVAutoUpdate\CSVAutoupdate\CSVAutoupdate\obj\Debug\net6.0\ref\CSVAutoupdate.dll

@@ -18,13 +18,12 @@ namespace ExcelReaderTwo
         {
             ///<Interop>Using Excel Interop</Interop>
             Excel.Application excelApp = new Excel.Application();
-            Excel.Workbook wb = excelApp.Workbooks.Open(@"C:\Users\user\Desktop\Computer Science\2. Projects\Projects4-Excel Addins\References\CUEA Drawing List.xlsx");
+            Excel.Workbook wb = excelApp.Workbooks.Open(@"D:\Git\Excel-Addins\References\CUEA Drawing List.xlsx");
             Excel.Worksheet ws = wb.Worksheets[1] ;
             Excel.Range excelRange = ws.UsedRange;
 
             int rows = excelRange.Rows.Count;
             int columns = excelRange.Columns.Count;
-            string countName = "Default";
 
             for (int i = 1; i <= rows; i++)
             {
