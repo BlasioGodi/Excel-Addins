@@ -58,7 +58,7 @@ class Program
     static string ProcessData(string[] data)
     {
         // For simplicity, just concatenate the first and second columns
-        return data[0] + "," + data[1]+ "," + data[2] + "," + data[3];
+        return data[0] + "," + data[1]+ "," + data[2] + "," + data[3] + "," + data[4] + "," + data[5];
     }
 
     // Write data to the destination CSV file
