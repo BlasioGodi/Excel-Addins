@@ -49,8 +49,26 @@ class Program
                         SetLastUpdateTime(DateTime.Now);
                     }
                 }
+                catch (FileNotFoundException ex)
+                {
+                    // Handle the case when the file does not exist
+                    Console.WriteLine("File not found: " + ex.Message);
+                    //Retry the operation
+                    Thread.Sleep(1000);
+                }
+                catch (UnauthorizedAccessException ex)
+                {
+                    // Handle the case when you don't have permission to access the file
+                    Console.WriteLine("Unauthorized access: " + ex.Message);
+                }
+                catch (IOException ex)
+                {
+                    // Handle other IO-related errors (e.g., file in use, disk full, etc.)
+                    Console.WriteLine("IO error: " + ex.Message);
+                }
                 catch (Exception ex)
                 {
+                    // Handle any other unexpected exceptions
                     Console.WriteLine("Error: " + ex.Message);
                 }
                 // Wait for a specified time before checking for updates again (e.g., 1 minute)
