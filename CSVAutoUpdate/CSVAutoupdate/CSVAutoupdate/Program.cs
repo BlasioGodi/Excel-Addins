@@ -12,6 +12,10 @@ class Program
         string sourceFilePath = @"C:\Program Files\MT5-ACC1\MQL5\Files\MasterEASignal.csv";
         string destinationFolder1 = @"C:\Program Files\MT5-ACC2\MQL5\Files\";
         string destinationFolder2 = @"C:\Program Files\MT5-ACC3\MQL5\Files\";
+        string destinationFolder3 = @"C:\Program Files\MT5-ACC4\MQL5\Files\";
+        string destinationFolder4 = @"C:\Program Files\MT5-ACC5\MQL5\Files\";
+        string destinationFolder5 = @"C:\Program Files\MT5-ACC6\MQL5\Files\";
+        string destinationFolder6 = @"C:\Program Files\MT5-ACC7\MQL5\Files\";
 
         int maxRetries = 10; // Set the maximum number of retry attempts
 
@@ -43,8 +47,23 @@ class Program
                             // Transfer data to the second destination CSV file asynchronously
                             string destinationFile2 = Path.Combine(destinationFolder2, "SlaveEASignal2.csv");
                             await TransferDataAsync(destinationFile2, processedData);
-                        }
 
+                            // Transfer data to the second destination CSV file asynchronously
+                            string destinationFile3 = Path.Combine(destinationFolder3, "SlaveEASignal3.csv");
+                            await TransferDataAsync(destinationFile3, processedData);
+
+                            // Transfer data to the second destination CSV file asynchronously
+                            string destinationFile4 = Path.Combine(destinationFolder4, "SlaveEASignal4.csv");
+                            await TransferDataAsync(destinationFile4, processedData);
+
+                            // Transfer data to the second destination CSV file asynchronously
+                            string destinationFile5 = Path.Combine(destinationFolder5, "SlaveEASignal5.csv");
+                            await TransferDataAsync(destinationFile5, processedData);
+
+                            // Transfer data to the second destination CSV file asynchronously
+                            string destinationFile6 = Path.Combine(destinationFolder6, "SlaveEASignal6.csv");
+                            await TransferDataAsync(destinationFile6, processedData);
+                        }
                         // Update the last update time to avoid processing the same data multiple times
                         SetLastUpdateTime(DateTime.Now);
                     }
@@ -99,8 +118,6 @@ static string ProcessData(string[] data)
     // For simplicity, just concatenate the first and second columns
     return data[0] + "," + data[1] + "," + data[2] + "," + data[3] + "," + data[4] + "," + data[5];
 }
-
-
     // Write data to the destination CSV file asynchronously
     static async Task TransferDataAsync(string destinationFile, string data)
     {
@@ -110,7 +127,6 @@ static string ProcessData(string[] data)
             await writer.WriteAsync(data);
         }
     }
-
     // Store and retrieve the last update time in a file or database
     static DateTime GetLastUpdateTime()
     {
@@ -118,13 +134,11 @@ static string ProcessData(string[] data)
         // For simplicity, we will return DateTime.MinValue for the initial check
         return DateTime.MinValue;
     }
-
     static void SetLastUpdateTime(DateTime updateTime)
     {
         // Implement your logic to store the last update time
         // For simplicity, we won't store the time in this example
     }
-
     static async Task<string[][]> ReadCsvFileAsync(string filePath)
     {
         using (StreamReader reader = new StreamReader(filePath))
@@ -146,7 +160,6 @@ static string ProcessData(string[] data)
                     rowsList.Add(columns);
                 }
             }
-
             return rowsList.ToArray();
         }
     }
