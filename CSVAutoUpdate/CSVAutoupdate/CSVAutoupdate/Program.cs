@@ -48,19 +48,19 @@ class Program
                             string destinationFile2 = Path.Combine(destinationFolder2, "SlaveEASignal2.csv");
                             await TransferDataAsync(destinationFile2, processedData);
 
-                            // Transfer data to the second destination CSV file asynchronously
+                            // Transfer data to the third destination CSV file asynchronously
                             string destinationFile3 = Path.Combine(destinationFolder3, "SlaveEASignal3.csv");
                             await TransferDataAsync(destinationFile3, processedData);
 
-                            // Transfer data to the second destination CSV file asynchronously
+                            // Transfer data to the fourth destination CSV file asynchronously
                             string destinationFile4 = Path.Combine(destinationFolder4, "SlaveEASignal4.csv");
                             await TransferDataAsync(destinationFile4, processedData);
 
-                            // Transfer data to the second destination CSV file asynchronously
+                            // Transfer data to the fifth destination CSV file asynchronously
                             string destinationFile5 = Path.Combine(destinationFolder5, "SlaveEASignal5.csv");
                             await TransferDataAsync(destinationFile5, processedData);
 
-                            // Transfer data to the second destination CSV file asynchronously
+                            // Transfer data to the sixth destination CSV file asynchronously
                             string destinationFile6 = Path.Combine(destinationFolder6, "SlaveEASignal6.csv");
                             await TransferDataAsync(destinationFile6, processedData);
                         }
